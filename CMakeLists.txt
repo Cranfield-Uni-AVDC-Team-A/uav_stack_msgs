@@ -52,7 +52,9 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
   FILES
   Detector2D.msg
+  Detector3D.msg
   Detector2DArray.msg
+  Detector3DArray.msg
   BoundingBox2D.msg
   ObjectHypothesis.msg
 )
