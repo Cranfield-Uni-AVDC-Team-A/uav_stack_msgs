@@ -9,8 +9,15 @@ Header header
 # Class probabilities
 ObjectHypothesis results
 
+# Tracker
+int32 tracker_id
+bool is_tracked
+
 # 2D bounding box surrounding the object.
 BoundingBox2D bbox
 
-# 3D Location of the object
-geometry_msgs/Vector3 positions
+# 3D Position of the object w.r.t Camera Frame
+geometry_msgs/Vector3 position
+
+# 3D Velocity of the object w.r.t Camera Frame
+geometry_msgs/Vector3 velocity
