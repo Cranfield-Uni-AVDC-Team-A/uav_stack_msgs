@@ -17,7 +17,7 @@ bool is_tracked
 BoundingBox2D bbox
 
 # 3D Position of the object w.r.t Camera Frame
-geometry_msgs/Vector3 position
+geometry_msgs/Point position
 
 # 3D Velocity of the object w.r.t Camera Frame
-geometry_msgs/Vector3 velocity
+#geometry_msgs/Vector3 velocity
