@@ -13,4 +13,4 @@ ObjectHypothesis results
 BoundingBox2D bbox
 
 # 3D Location of the object
-geometry_msgs/Vector3 positions
+geometry_msgs/Point position
